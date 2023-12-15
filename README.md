@@ -7,3 +7,4 @@ Plugins I use not included in ThePrimeagen's setup:
 - [VimTeX](https://github.com/lervag/vimtex)
 - [Colorizer](https://github.com/chrisbra/Colorizer/tree/master)
 - [vim-surround](https://github.com/tpope/vim-surround)
+- [toggle-lsp-diagnostics.nvim](https://github.com/WhoIsSethDaniel/toggle-lsp-diagnostics.nvim)
