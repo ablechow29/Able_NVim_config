@@ -1,10 +1,21 @@
-This is my personal NeoVim setup. 
+# Vim Tips
+## Vim commands
 
+## SHELL commands in Vim
+Type `:! [command]` to execute a shell command such as `ls`
+Type `:r ! [command]` to write the output of the command to the current file opened
+Type `:! ./%` to execute the file you have opened in vim
+
+# Editing with Vim macros
+
+# NVim configuration
 The majority of the setup follows ThePrimeagen's ["0  to LSP: Neovim RC From Scratch"](https://www.youtube.com/watch?v=w7i4amO_zaE) tutorial.
 I did not install all the plugins he installed and did not adopt the majority of his key binding remaps. 
 
-Plugins I use not included in ThePrimeagen's setup: 
+Plugins I use but not included in ThePrimeagen's setup: 
 - [VimTeX](https://github.com/lervag/vimtex)
 - [Colorizer](https://github.com/chrisbra/Colorizer/tree/master)
 - [vim-surround](https://github.com/tpope/vim-surround)
 - [toggle-lsp-diagnostics.nvim](https://github.com/WhoIsSethDaniel/toggle-lsp-diagnostics.nvim)
+
+
