@@ -3,9 +3,21 @@
 
 ## SHELL commands in Vim
 Type `:! [command]` to execute a shell command such as `ls`
+
 Type `:r ! [command]` to write the output of the command to the current file opened
+
 Type `:! ./%` to execute the file you have opened in vim
 
+To execute the current line in vim terminal
+`:.w !bash`
+
+To execute selected line in vim terminal
+
+enter `v` to get into visual mode, move cursor to select the desired lines
+
+enter `:w !bash` to execute the selected lines and print the output in terminal
+
+See this [link](https://parobalth.github.io/vim-run-line) for further explanation
 # Editing with Vim macros
 
 # NVim configuration
