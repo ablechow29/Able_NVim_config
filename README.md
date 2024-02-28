@@ -1,4 +1,16 @@
 # Vim Tips
+
+## Remove all lines that are not unique
+Type :% refers to the file
+
+Type `:%!sort`
+
+Type `:%!uniq -u` 
+
+Type `:%!sort | uniq -u`
+
+[READMORE](https://superuser.com/questions/544797/vim-delete-all-lines-but-unique)
+
 ## Executing Scripts from Vim
 
 Type `:! [command]` to execute a shell command such as `ls`
@@ -22,6 +34,11 @@ References:
 posts for more details: 
 - [link](https://vi.stackexchange.com/questions/19235/how-to-execute-selected-lines-in-bash-and-print-the-output-in-the-next-line)
 - [link](https://www.reddit.com/r/vim/comments/lavkom/running_a_shell_command_on_the_current_line/)
+
+## Vim Search and Replace
+`:%s/ /\r/g`
+to replace all space with new line
+
 
 ## Editing with Vim macros
 
